@@ -14,7 +14,7 @@ html{
 }
 .top-social-bar-wrapper{
     background-color:#59B001;
-    padding: 10px;
+    padding: 6px 0;
 }
 .topbar-inner{
     color: white;
@@ -26,10 +26,41 @@ html{
     display: flex;
     align-items: center;
 }
+.social-icons li:first-child{
+    border-right: 2px solid white;
+}
 .contact-detail li a{
-    padding: 12px;
+    padding: 3px 12px;
+    text-decoration: none;
+    color: white;
 }
 .contact-detail li a img{
     width: 15px;
 }
+.contact-detail span{
+    font-weight: bold;
+}
+.social-icons{
+    padding: 3px;
+}
+.h-hero-wrapper figure img{
+    max-width: 100%;
+    display: block;
+}
+.h-hero-wrapper {
+    position: relative;
+}
+.h-hero-wrapper .overlay{
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+    inset: 0;
+}
+.h-hero-wrapper .overlay-inner{
+    width: 40%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
